@@ -1,6 +1,8 @@
 import numpy as np
 import tensorflow.compat.v1 as tf
+# pip install opencv-python
 import cv2 as cv
+
 
 # Read the graph.
 with tf.gfile.FastGFile('frozen_inference_graph.pb', 'rb') as f:
